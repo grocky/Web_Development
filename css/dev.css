@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ************ */
+/*  HTML Tags   */
+/* ************ */
+* {
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+}
+header {
+    position:relative;
+    width:100%;
+    min-width:650px;
+    height: 130px;
+    z-index:10;
+}
+
+nav.mainNav {
+    height:100%;
+    min-width:350px;
+}
+
+ul.mainList {
+    position:relative;
+    float:right;
+    margin-left:300px;
+    padding-top:55px;
+    z-index:11;
+    list-style:none;
+}
+
+ul.mainList .nav_item {
+    display:block;
+    float:left;
+    vertical-align:middle;
+}
+
+ul.mainList .nav_item a {
+    float:left;
+    display:block;
+    height:40px;
+    padding:0 10px;
+    color:#777;
+    text-decoration:none;
+    font-family: 'Chivo', sans-serif;
+    font-weight:400;
+}
+
+.container960 {
+    width:100%;
+    max-width:960px;
+    min-width:300px;
+    height:100%;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.quote {
+    opacity:0;
+    width:840px;
+    min-width:400px;
+    top:-40px;
+}
+
+.quote p {
+    font-family:'Chivo', sans-serif;
+    font-style:italic;
+    font-weight:400;
+}
+
+.signature {
+    height:1em;
+    width:100%;
+}
+.signature p {
+    float:right;
+    font-family:'Chivo', sans-serif;
+    font-style:italic;
+    font-weight:900;
+}
+
+footer {
+    position:absolute;
+    width:100%;
+    min-width:450px;
+    /*margin-top:-60px;*/
+    height:200px;
+    background-image:url('../img/footer-bg_1x200.png');
+    background-repeat:repeat-x;
+}
+
+.copyright {
+    margin-top:100px;
+    height:3em;
+    position:relative;
+    background-color:#5b5740;
+}
+
+.copyright p {
+    padding-top:1.7em;
+    font-family:'Chivo', sans-serif;
+    font-weight:400;
+    font-size:.7em;
+    color:#cccc99;
+}
+
+.copyright p > a {
+    text-decoration:none;
+    color:#cccc99;
+}
+/* **************** */
+/*  Template Tags   */
+/* **************** */
+.blackBG {
+    background-color:#000000;
+}
+
+.whiteBG {
+    background-color:#FFF;
+}
+
+.redBG {
+    background-color:#900;
+}
+
+.center {
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.transparent {
+    background-color:transparent;
+}
+
+.invisible {
+    visibility:hidden;
+    opacity:0;
+}
+.visible {
+    opacity:1;
+}
+
+.dim20 {
+    opacity:.2;
+}
+
+.profile h1, h2, p {
+    text-align:left;
+}
+
+.profile {
+}
+
+.profile .name {
+}
+.profile .picture {
+}
+.profile .bio {
+}
+
+.contacts a {
+    color:#333;
+    text-decoration:none;
+}
+/* ***************** */
+/*      ID Tags      */
+/* ***************** */
+#main-header {
+    background-image:url('../img/nav_bg_1x130.png');
+    background-repeat:repeat-x;
+    margin-bottom:-10px;
+}
+
+#logo {
+    position:absolute;
+    margin-top:10px;
+    background-image:url('../img/BNV_logo2-300x104.png');
+    width:300px;
+    height:104px;
+    z-index:11;
+}
+
+
+#main {
+    margin:0px;
+    padding:0px;
+    position:relative;
+    height:90%;   
+    width:100%;
+}
+
+.mainBG {
+    background-image:url('../img/main-gbUpper_1x200.png');
+    background-repeat:repeat-x;
+    background-color:#FFF;
+}
+
+#animation {
+    position:relative;
+    width:960px;
+    height:464px;
+}
+
+canvas {
+    padding:0px;
+    margin:0px;
+    background-color:#FFF;
+}
+
+#aniContainer {
+    position:absolute;
+    margin:0px;
+    padding:0px;
+    top:0;
+    left:0;
+    width:100%;
+    height:440px;
+    z-index:1;
+}
+
+#aniShadow {
+    position:absolute;
+    top:420px;
+    left:0px;
+    width:960px;
+    height:44px;
+    background-image:url('../img/ani_shadow.jpg');
+    background-repeat:no-repeat;
+}
+
+#founder {
+	display:inline;
+}
+
+#content {
+    text-align:left;
+    max-width:960px;
+    min-width:300px;
+}
+

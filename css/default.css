@@ -1,0 +1,375 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ************ */
+/*  HTML Tags   */
+/* ************ */
+* {
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    position:relative;
+    width:100%;
+    min-width:650px;
+    height: 130px;
+    z-index:10;
+}
+
+nav.mainNav {
+    height:74px;
+    min-width:500px;
+    margin-left:185px;
+}
+
+nav.mainNav ul {
+    position:relative;
+    float:right;
+    z-index:11;
+    list-style-type:none;
+}
+
+nav.mainNav ul li {
+    position:relative;
+    float:left;
+    height:74px;
+}
+
+nav.mainNav ul li a {
+    float:left;
+    display:block;
+    width:100px;
+    margin-top:25px;
+    color:#777;
+    text-decoration:none;
+    font-family: 'Chivo', sans-serif;
+    font-weight:400;
+}
+
+.container960 {
+    position:relative;
+    max-width:960px;
+    min-width:300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.quote {
+    position:relative;
+    opacity:0;
+    max-width:700px;
+    min-width:400px;
+}
+
+.quote p {
+    font-family:'Chivo', sans-serif;
+    font-style:italic;
+    font-weight:400;
+}
+
+.signature {
+    height:1em;
+    width:100%;
+}
+.signature p {
+    float:right;
+    font-family:'Chivo', sans-serif;
+    font-style:italic;
+    font-weight:900;
+}
+
+.content {
+    padding:30px;
+    width:80%;
+    max-width:960px;
+    background-color:#fff;
+font-family:'Chivo', sans-serif;
+    font-weight:400;
+    color:#222;
+    font-size:100%;
+}
+
+.content > p {
+    margin:10px 0;
+}
+
+.content>blockquote {
+    padding:10px 60px;
+    font-style:italic;
+}
+
+.content a{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.content a img {
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.clear {
+    clear:both;
+}
+
+.signature2 {
+    clear:both;
+    position:relative;
+    float:right;
+    margin-right:10px;
+}
+
+/********
+ * Profile
+ * *******/
+#founders {
+    overflow:hidden;
+    width:960px;
+    padding-top:20px;
+}
+.profile {
+    width:960px;
+    height:450px;
+    padding:0px;
+    margin-bottom:10px;
+    clear:both;
+}
+
+.profile img {
+    float:left;
+    margin-right:10px;
+    width:250px;
+    height:250px;
+}
+
+.profile h2 {
+    float:right;
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-right:5%;
+}
+
+.profile p {
+    position:relative;
+    float:right;
+    margin-bottom:20px;
+    padding:0px;
+    width:550px;
+    font-family:'Chivo', sans-serif;
+}
+ /*************
+  * partners
+  ***********/
+
+.content div {
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+}
+#zeroTo510 {
+    width:291px;
+    height:114px;
+    background-image:url('../img/zeroto510.png');
+}
+
+#memBioWorks {
+    width:148px;
+    height:192px;
+    background-image:url('../img/memBioWorks.jpg');
+}
+
+#mbVentures {
+    width:157px;
+    height:76px;
+    background-image:url('../img/mbVentures.jpg');
+}
+
+#innova {
+    width:157px;
+    height:76px;
+    background-image:url('../img/innova.jpg');
+}
+
+#vanderbilt {
+    width:456px;
+    height:111px;
+    background-image:url('../img/vanderbilt.jpg');
+}
+
+#cttc {
+    width:550px;
+    height:61px;
+    background-image:url('../img/cttc.png');
+}
+
+footer {
+    position:relative;
+    display:block;
+    width:100%;
+    min-width:450px;
+    height:200px;
+    background-image:url('../img/footer-bg_1x200.png');
+    background-repeat:repeat-x;
+}
+
+footer .copyright {
+    position:absolute;
+    top:110px;
+    height:50px;
+    width:100%;
+    background-color:#5b5740;
+}
+
+footer .copyright p {
+    padding-top:20px;
+    font-family:'Chivo', sans-serif;
+    font-weight:400;
+    font-size:12px;
+    color:#cccc99;
+}
+
+.copyright p > a {
+    text-decoration:none;
+    color:#cccc99;
+}
+
+#contacts {
+    height:400px;
+}
+/* **************** */
+/*  Template Tags   */
+/* **************** */
+.blackBG {
+    background-color:#000000;
+}
+
+.whiteBG {
+    background-color:#FFF;
+}
+
+.redBG {
+    background-color:#900;
+}
+
+.center {
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.transparent {
+    background-color:transparent;
+}
+
+.invisible {
+    visibility:hidden;
+    opacity:0;
+}
+.visible {
+    opacity:1;
+}
+
+.dim20 {
+    opacity:.2;
+}
+
+.profile h1, h2, p {
+    text-align:left;
+}
+
+.contacts a {
+    color:#333;
+    text-decoration:none;
+}
+/* ***************** */
+/*      ID Tags      */
+/* ***************** */
+#main-header {
+    background-image:url('../img/nav_bg_1x80.png');
+    background-repeat:repeat-x;
+    margin-bottom:-6px;
+    height:80px;
+    width:100%;
+}
+
+#logo {
+    position:absolute;
+    margin-top:10px;
+    background-image:url('../img/BNV_Logo2-185x64.png');
+    width:185px;
+    height:64px;
+    z-index:21;
+}
+
+
+#main {
+    position:relative;
+    margin-bottom:50px;
+    padding:0px;
+    min-height:68%;   
+    width:100%;
+}
+
+.mainBG {
+    background-image:url('../img/main-gbUpper_1x200.png');
+    background-repeat:repeat-x;
+    background-color:#FFF;
+}
+
+#animation {
+    position:relative;
+    width:960px;
+    height:464px;
+}
+
+canvas {
+    padding:0px;
+    margin:0px;
+    background-color:#FFF;
+}
+
+#aniContainer {
+    position:absolute;
+    margin:0px;
+    padding:0px;
+    top:0;
+    left:0;
+    width:100%;
+    height:440px;
+    z-index:1;
+}
+
+#aniShadow {
+    position:absolute;
+    top:420px;
+    left:0px;
+}
+
+.contShadow {
+    width:960px;
+    height:44px;
+    background-image:url('../img/ani_shadow.jpg');
+    background-repeat:no-repeat;
+}
+#founder {
+	display:inline;
+}
+
+#aboutUsImg {
+    width:779px;
+    height:477px;
+    background-image:url('../img/AboutUsPicturePage-1.jpg');
+    border-style:hidden;
+    display:block;
+}
+
+

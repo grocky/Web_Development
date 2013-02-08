@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ************ */
+/*  HTML Tags   */
+/* ************ */
+* {
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+}
+
+header {
+    max-width:1038px;
+    min-width:900px;
+    height: 82px;
+    max-height:170px;
+}
+
+#main {
+    min-height: 100%;
+/*    padding-bottom:60px;*/
+} 
+
+#content {
+    overflow:auto;
+}
+
+/*
+footer {
+    width:100%;
+    min-width:450px;
+    bottom:0px;
+    padding-bottom:3px;
+    height:60px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+    margin-bottom:0px;
+    position:absolute;
+    font-size:15px;
+}
+*/
+footer {
+    width:1040px;
+    max-width:80%;
+    min-width:450px;
+    position: relative;
+    /*margin-top:-60px;*/
+    height:60px;
+    background-color: #900;
+}
+h1, h2, h3, h4, h5, h6 {
+	
+}
+
+p {
+	
+}
+
+a {
+	
+}
+
+a:hover {
+	
+}
+
+hr {
+	
+}
+
+/* **************** */
+/*  Template Tags   */
+/* **************** */
+.blackBG {
+    background-color:#000000;
+}
+
+.whiteBG {
+    background-color:#FFFFFF;
+}
+
+.center {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.invisible {
+    visibility:hidden;
+    opacity:0;
+}
+.visible {
+    opacity:1;
+}
+
+.dim20 {
+    opacity:.2;
+}
+.profile h1, h2, p {
+    text-align:left;
+}
+
+.profile {
+}
+
+.profile .name {
+}
+.profile .picture {
+}
+.profile .bio {
+}
+
+.contacts a {
+    color:#333;
+    text-decoration:none;
+}
+/* ***************** */
+/*      ID Tags      */
+/* ***************** */
+#wrapper {
+    min-height:100%;
+    position:relative;
+    max-width:1040px;
+}
+
+#header {
+    min-width:900px;
+    height:170px;
+}
+
+#bar {
+    background-image:url(../img/bg_nav.png);
+	height:82px;
+    width:100%;
+    z-index:2;
+}
+
+#nav {
+	margin:0px;
+}
+
+#founder {
+	display:inline;
+}
+
+#nav div {
+    border-style:none;
+	margin-top:5px;
+	margin-left:10%;
+	padding:0px;
+	float:left;
+}
+
+#nav div a img{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    text-decoration:none;
+}
+
+#logo2{
+	z-index: 2;
+	position: absolute;
+	left: 391px;
+	top: 68px;
+	width: 293px;
+}
+
+#logo2 img{
+    width:240px;
+}
+
+#content {
+    padding:5px;
+    padding-bottom:9em;
+    background-color:transparent;
+    max-width:900px;
+    min-width:450px;
+    font-size:20px;
+    position:relative;
+}
+
+#footer {
+    width:100%;
+    min-width:450px;
+    bottom:0px;
+    padding-bottom:3px;
+    height:60px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+    margin-bottom:0px;
+    position:absolute;
+    font-size:15px;
+}
+
+
+
+#footer div{
+}
+
+#footerLeft {
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    text-align:left;
+    width:140px;
+}
+
+#footerRight {
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    text-align:right;
+    width:156px;
+}
+
+#footerCenter {
+    position:relative;
+    bottom:0;
+    width:450px;
+    min-width:200px;
+    margin-left:auto;
+    margin-right:auto;
+    top:23px;
+}
+
+#content_ani {
+    overflow:hidden;
+    margin-left:auto;
+    margin-right:auto;
+    z-index:-1;
+    position:relative;
+    top:-10px;
+}
+
+/* ***************** */
+/*  Navigation Tags  */
+/* ***************** */
+
+/* ***************** */
+/*    IMG Tags       */
+/* ***************** */
